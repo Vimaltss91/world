@@ -27,6 +27,15 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    
+  <snapshotRepository>
+      <id>maven-snap</id>
+      <url>http://15.206.187.222:8081/repository/maven-snap/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://your-host:8081/repository/maven-releases/</url>
+    </repository>
   </distributionManagement>
 
   <build>
